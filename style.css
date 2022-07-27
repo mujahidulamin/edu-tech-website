@@ -1,16 +1,25 @@
 /* background overlay */
-.bg-image{
+.bg-image {
     filter: brightness(40%);
 }
+
+.box-shadow {
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    background-color: #E8E8E8;
+}
+
 /* media query */
-@media only screen and (max-width:401px){
-    .slider h6{
+@media only screen and (max-width:401px) {
+    .slider h6 {
         font-size: 20px;
     }
-    .slider p{
-        font-size: 12px ;
+
+    .slider p {
+        font-size: 12px;
     }
-    .slider .carousel-caption{
+
+    .slider .carousel-caption {
         margin-top: 20px;
     }
 }

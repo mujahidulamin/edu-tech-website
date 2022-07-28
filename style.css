@@ -3,7 +3,15 @@
     filter: brightness(40%);
 }
 
+/* accordion */
+@media only screen and (min-width:992px) and (max-width:1400px) {
+    .accordion {
+        width: 75% !important;
+    }
+}
+
 /* media query for xtra small device to show the text in front of the slider*/
+
 @media only screen and (max-width:401px) {
     .slider h6 {
         font-size: 20px;

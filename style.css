@@ -3,18 +3,6 @@
     filter: brightness(40%);
 }
 
-/* courses box shadow overlay */
-.box-shadow {
-    border: 1px solid #E8E8E8;
-    border-radius: 5px;
-    background-color: #FFFFFF;
-}
-
-/* navbar-toggler button box-shaddow */
-.navbar-toggler:focus {
-    box-shadow: none;
-}
-
 /* media query for xtra small device to show the text in front of the slider*/
 @media only screen and (max-width:401px) {
     .slider h6 {
